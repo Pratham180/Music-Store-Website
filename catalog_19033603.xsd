@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="store">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="store_info"/>
+        <xs:element ref="Music"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="store_info">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="store_logo"/>
+        <xs:element ref="store_name"/>
+        <xs:element ref="store_address"/>
+        <xs:element ref="store_phoneno"/>
+        <xs:element ref="website"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="store_logo">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="store_name" type="xs:string"/>
+  <xs:element name="store_address" type="xs:string"/>
+  <xs:element name="store_phoneno" type="xs:NMTOKEN"/>
+  <xs:element name="website" type="xs:anyURI"/>
+  <xs:element name="Music">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="description"/>
+        <xs:element maxOccurs="unbounded" ref="song"/>
+        <xs:element ref="Description_2"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="description" type="xs:string"/>
+  <xs:element name="song">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="song_number"/>
+        <xs:element ref="song_name"/>
+        <xs:element ref="artist"/>
+        <xs:element ref="genre"/>
+        <xs:element ref="director"/>
+        <xs:element ref="producer"/>
+        <xs:element ref="writer"/>
+        <xs:element ref="sound_designer"/>
+        <xs:element ref="record_label"/>
+        <xs:element ref="studio"/>
+        <xs:element ref="song_duration"/>
+        <xs:element ref="song_language"/>
+        <xs:element ref="release_year"/>
+        <xs:element ref="song_price"/>
+      </xs:sequence>
+      <xs:attribute name="id" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="song_number" type="xs:integer"/>
+  <xs:element name="song_name">
+    <xs:complexType mixed="true">
+      <xs:attribute name="album" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="artist">
+    <xs:complexType mixed="true">
+      <xs:attribute name="age" use="required" type="xs:integer"/>
+      <xs:attribute name="gender" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="genre" type="xs:string"/>
+  <xs:element name="director" type="xs:string"/>
+  <xs:element name="producer" type="xs:string"/>
+  <xs:element name="writer" type="xs:string"/>
+  <xs:element name="sound_designer" type="xs:string"/>
+  <xs:element name="record_label" type="xs:string"/>
+  <xs:element name="studio">
+    <xs:complexType mixed="true">
+      <xs:attribute name="studioAddress" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="song_duration">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:NMTOKEN">
+          <xs:attribute name="format" use="required" type="xs:NMTOKEN"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="song_language" type="xs:NCName"/>
+  <xs:element name="release_year" type="xs:integer"/>
+  <xs:element name="song_price">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="digital_version"/>
+        <xs:element ref="CD_version"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="digital_version">
+    <xs:complexType mixed="true">
+      <xs:attribute name="currency" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CD_version">
+    <xs:complexType mixed="true">
+      <xs:attribute name="currency" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Description_2" type="xs:string"/>
+</xs:schema>

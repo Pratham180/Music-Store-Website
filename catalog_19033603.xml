@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/css" href="catalog_19033603.css"?>
+<!DOCTYPE store SYSTEM "catalog_19033603.dtd">
+<?xml-model href="catalog_19033603.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<store> 
+    <store_info>
+        <store_logo/>    
+        <store_name>Nepal Music Store</store_name>
+        <store_address>Balaju, Bansathali</store_address>
+        <store_phoneno>01-4567456</store_phoneno>
+        <website>https://nepalmusicstore.com.np</website>
+    </store_info>
+    <Music>
+       <description>List of Songs</description>
+
+        <song id="S1">
+		    <song_number>1</song_number>
+            <song_name album="Disney">Beauty and the Beast</song_name>
+            <artist gender="Male" age="18">Mike Nepal</artist>
+            <genre>Classical</genre>
+            <director>John Sharman</director>
+            <producer>Chris Angles</producer>
+            <writer>Alan John</writer>
+            <sound_designer>Mona Lisa</sound_designer>
+            <record_label>OVO Records</record_label>
+            <studio studioAddress="Balaju, Nepal">Nepal studio</studio>
+            <song_duration format="mm:ss">2:00</song_duration>
+            <song_language>English</song_language>
+            <release_year>2020</release_year>
+                <song_price> 
+                <digital_version currency="usd">$10</digital_version>
+                <CD_version currency="usd">$15</CD_version>
+                </song_price>
+        </song>
+
+        <song id="S2">
+		    <song_number>2</song_number>
+            <song_name album="Unbroken">Red Legend</song_name>
+            <artist gender="Male" age="34">Jamie Holmes</artist>
+            <genre>Rock</genre>
+            <director>Angelina Mccormick</director>
+            <producer>Carmen Willis</producer>
+            <writer>Kelly Bryan</writer>
+            <sound_designer>Alejandro Sharp</sound_designer>
+            <record_label>Universal Music Group</record_label>
+            <studio studioAddress="Luanda, Angola">Artist’S Studio</studio>
+            <song_duration format="mm:ss">3:00</song_duration>
+            <song_language>English</song_language>
+            <release_year>2019</release_year>
+                <song_price> 
+                <digital_version currency="usd">$11</digital_version>
+                <CD_version currency="usd">$16</CD_version>
+                </song_price>
+        </song>
+
+        <song id="S3">
+		    <song_number>3</song_number>
+            <song_name album="Dancing Tonight">Pure Planet</song_name>
+            <artist gender="Female" age="22"></artist>
+            <genre>Pop</genre>
+            <director>Amanda Hall</director>
+            <producer>Joe Goodwin</producer>
+            <writer>Carla Massey</writer>
+            <sound_designer>Maurice Bryan</sound_designer>
+            <record_label>Sony Music</record_label>
+            <studio studioAddress="Shijiazhuang, China">Pro Studio</studio>
+            <song_duration format="mm:ss">3:00</song_duration>
+            <song_language>English</song_language>
+            <release_year>2001</release_year>
+                <song_price> 
+                <digital_version currency="usd">$50</digital_version>
+                <CD_version currency="usd">$60</CD_version>
+                </song_price>
+        </song>
+
+        <song id="S4">
+		    <song_number>4</song_number>
+            <song_name album="Only Chance">The Sealand Sounds</song_name>
+            <artist gender="Male" age="44">Agnes Nunez</artist>
+            <genre>Jazz</genre>
+            <director>Jacqueline Perez</director>
+            <producer>Matt Quinn</producer>
+            <writer>Alan John</writer>
+            <sound_designer>Julius Stokes</sound_designer>
+            <record_label>Warner Music Group</record_label>
+            <studio studioAddress="Chittagong, Bangladesh">Artful Studio</studio>
+            <song_duration format="mm:ss">2:00</song_duration>
+            <song_language>English</song_language>
+            <release_year>2020</release_year>
+                <song_price> 
+                <digital_version currency="usd">$10</digital_version>
+                <CD_version currency="usd">$15</CD_version>
+                </song_price>
+        </song>
+
+        <song id="S5">
+		    <song_number>5</song_number>
+            <song_name album="Story">It's All About Memories</song_name>
+            <artist gender="Male" age="34">Jon Walsh</artist>
+            <genre>Heavy Metal</genre>
+            <director>Monique Owens</director>
+            <producer>Susie Andrews</producer>
+            <writer>Madeline Floyd</writer>
+            <sound_designer>Angelo Lynch</sound_designer>
+            <record_label>Interscope Geffen AM Records</record_label>
+            <studio studioAddress="Kolkata, India">Nepal studio</studio>
+            <song_duration format="mm:ss">1:00</song_duration>
+            <song_language>Hindi</song_language>
+            <release_year>2021</release_year>
+                <song_price> 
+                <digital_version currency="usd">$5</digital_version>
+                <CD_version currency="usd">$6</CD_version>
+                </song_price>
+        </song>
+
+        <song id="S6">
+		    <song_number>6</song_number>
+            <song_name album="Wind Down March">Below My Silence</song_name>
+            <artist gender="Female" age="20">Katie Sanchezl</artist>
+            <genre>Blues</genre>
+            <director>Katherine Shelton</director>
+            <producer>Ada Silva</producer>
+            <writer>Carmen Sanders</writer>
+            <sound_designer>Everett Stephens</sound_designer>
+            <record_label>Capitol Music Group</record_label>
+            <studio studioAddress="Shiraz, Iran">Creative Genius</studio>
+            <song_duration format="mm:ss">3:21</song_duration>
+            <song_language>English</song_language>
+            <release_year>2005</release_year>
+                <song_price> 
+                <digital_version currency="usd">$20</digital_version>
+                <CD_version currency="usd">$25</CD_version>
+                </song_price>
+        </song>
+
+        <song id="S7">
+		    <song_number>7</song_number>
+            <song_name album="Lonely Eclipse">Street</song_name>
+            <artist gender="Male" age="18">Andrew Bowen</artist>
+            <genre>Rock</genre>
+            <director>Donnie Clarke</director>
+            <producer>Spencer Burgess</producer>
+            <writer>Blake Kelley</writer>
+            <sound_designer>Gustavo Frank</sound_designer>
+            <record_label>Republic Records</record_label>
+            <studio studioAddress="Giza, Egypt">Grow Studio</studio>
+            <song_duration format="mm:ss">2:30</song_duration>
+            <song_language>English</song_language>
+            <release_year>2006</release_year>
+                <song_price> 
+                <digital_version currency="usd">$40</digital_version>
+                <CD_version currency="usd">$50</CD_version>
+                </song_price>
+        </song>
+
+        <song id="S8">
+		    <song_number>8</song_number>
+            <song_name album="Retro Believes">Thinking Of Out Here</song_name>
+            <artist gender="Male" age="25">Mike Nepal</artist>
+            <genre>Hip Hop</genre>
+            <director>Ignacio Stewart</director>
+            <producer>Charles Johnson</producer>
+            <writer>Wayne Cain</writer>
+            <sound_designer>Hannah Mack</sound_designer>
+            <record_label>Island Records</record_label>
+            <studio studioAddress="Kathmandu, Nepal">Family Studio</studio>
+            <song_duration format="mm:ss">6:00</song_duration>
+            <song_language>Nepali</song_language>
+            <release_year>2007</release_year>
+                <song_price> 
+                <digital_version currency="usd">$20</digital_version>
+                <CD_version currency="usd">$25</CD_version>
+                </song_price>
+        </song>
+
+        <song id="S9">
+		    <song_number>9</song_number>
+            <song_name album="Mexico Soul">Acid Forever</song_name>
+            <artist gender="Female" age="27">Katie Dean</artist>
+            <genre>Classical</genre>
+            <director>John Sharman</director>
+            <producer>Chris Angles</producer>
+            <writer>Alan John</writer>
+            <sound_designer>Mona Lisa</sound_designer>
+            <record_label>Def Jam Recordings</record_label>
+            <studio studioAddress="Kuala Lumpur, Malaysia">Notes Studio</studio>
+            <song_duration format="mm:ss">6:00</song_duration>
+            <song_language>English</song_language>
+            <release_year>1997</release_year>
+                <song_price> 
+                <digital_version currency="usd">$10</digital_version>
+                <CD_version currency="usd">$15</CD_version>
+                </song_price>
+        </song>
+
+        <song id="S10">
+		    <song_number>10</song_number>
+            <song_name album="Great Anthem">Pure Chocolate</song_name>
+            <artist gender="Male" age="21">Antoinette Moody</artist>
+            <genre>Rap</genre>
+            <director>Benjamin Collins</director>
+            <producer>Isaac Ramsey</producer>
+            <writer>Rodney Goodwin</writer>
+            <sound_designer>Carla Martinez</sound_designer>
+            <record_label>The Verve Label Group</record_label>
+            <studio studioAddress="Abuja, Nigeria">Super Max studio</studio>
+            <song_duration format="mm:ss">4:00</song_duration>
+            <song_language>English</song_language>
+            <release_year>2004</release_year>
+                <song_price> 
+                <digital_version currency="usd">$10</digital_version>
+                <CD_version currency="usd">$15</CD_version>
+                </song_price>
+        </song>
+
+        <song id="S11">
+		    <song_number>11</song_number>
+            <song_name album="Terrific Decisions">Light-Hearted Choice</song_name>
+            <artist gender="Male" age="28">Rodolfo Drake</artist>
+            <genre>Pop</genre>
+            <director>John Sharman</director>
+            <producer>Alex Castro</producer>
+            <writer>Sadie Quinn</writer>
+            <sound_designer>Janice Jackson
+            </sound_designer>
+            <record_label>Caroline Records</record_label>
+            <studio studioAddress="Brisbane, Australia">Wide studio</studio>
+            <song_duration format="mm:ss">2:15</song_duration>
+            <song_language>French</song_language>
+            <release_year>2009</release_year>
+                <song_price> 
+                <digital_version currency="usd">$10</digital_version>
+                <CD_version currency="usd">$20</CD_version>
+                </song_price>
+        </song>
+
+        <song id="S12">
+		    <song_number>12</song_number>
+            <song_name album="Enchanting February">Discomforting December</song_name>
+            <artist gender="Female" age="18">Jean Mendoza</artist>
+            <genre>Rock</genre>
+            <director>Claudia Hicks</director>
+            <producer>Darrel Jenkins</producer>
+            <writer>Loren Tran</writer>
+            <sound_designer>Mona Lisa</sound_designer>
+            <record_label>Isolation Network</record_label>
+            <studio studioAddress="Balaju, Nepal">Nepal studio</studio>
+            <song_duration format="mm:ss">5:00</song_duration>
+            <song_language>English</song_language>
+            <release_year>2021</release_year>
+                <song_price> 
+                <digital_version currency="usd">$30</digital_version>
+                <CD_version currency="usd">$35</CD_version>
+                </song_price>
+        </song>
+
+        <song id="S13">
+		    <song_number>13</song_number>
+            <song_name album="Is This Talk">Atmospheric Slow Down</song_name>
+            <artist gender="Male" age="34">Albert Garrett</artist>
+            <genre>Country</genre>
+            <director>Iris Underwood</director>
+            <producer>Chris Angles</producer>
+            <writer>Alan John</writer>
+            <sound_designer>Candace Peters</sound_designer>
+            <record_label>Universal Music UK</record_label>
+            <studio studioAddress="London, England">North studio</studio>
+            <song_duration format="mm:ss">1:01</song_duration>
+            <song_language>German</song_language>
+            <release_year>2009</release_year>
+                <song_price> 
+                <digital_version currency="usd">$15</digital_version>
+                <CD_version currency="usd">$30</CD_version>
+                </song_price>
+        </song>
+
+        <song id="S14">
+		    <song_number>14</song_number>
+            <song_name album="Banquet Noise">Sunday Dreams</song_name>
+            <artist gender="Male" age="16">Cornelius Pena</artist>
+            <genre>Folk</genre>
+            <director>Arlene Stevenson</director>
+            <producer>Lyle Bradley</producer>
+            <writer>Megan Ryan</writer>
+            <sound_designer>Barry Leonard</sound_designer>
+            <record_label>Decca Label Group</record_label>
+            <studio studioAddress="Banasthai, Nepal">Nita studio</studio>
+            <song_duration format="mm:ss">7:00</song_duration>
+            <song_language>English</song_language>
+            <release_year>2021</release_year>
+                <song_price> 
+                <digital_version currency="usd">$50</digital_version>
+                <CD_version currency="usd">$60</CD_version>
+                </song_price>
+        </song>
+
+        <song id="S15">
+		    <song_number>15</song_number>
+            <song_name album="Tango Love">Streets Of Magnet</song_name>
+            <artist gender="Male" age="22">Garrett Payne</artist>
+            <genre>Jazz</genre>
+            <director>Cary Cox</director>
+            <producer>Chris Angles</producer>
+            <writer>Abraham Moore</writer>
+            <sound_designer>Shelly Ryan
+            </sound_designer>
+            <record_label>Universal Music Group Nashville</record_label>
+            <studio studioAddress="Nashville, USA">Next Gen studio</studio>
+            <song_duration format="mm:ss">2:55</song_duration>
+            <song_language>English</song_language>
+            <release_year>2010</release_year>
+                <song_price> 
+                <digital_version currency="usd">$14</digital_version>
+                <CD_version currency="usd">$21</CD_version>
+                </song_price>
+        </song>
+         <Description_2><![CDATA[ Thank you for Browsing ]]></Description_2>
+    </Music> 
+</store>

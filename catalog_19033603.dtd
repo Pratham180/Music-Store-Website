@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT store_logo EMPTY>
+<!ELEMENT store_name (#PCDATA)>
+<!ELEMENT store_address (#PCDATA)>
+<!ELEMENT store_phoneno (#PCDATA)>
+<!ELEMENT website (#PCDATA)>
+<!ELEMENT store_info (store_logo,store_name,store_address,store_phoneno,website)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT song_number (#PCDATA)>
+<!ELEMENT song_name (#PCDATA)>
+<!ATTLIST song_name album CDATA #REQUIRED>
+<!ELEMENT artist (#PCDATA)>
+<!ATTLIST artist 
+	gender CDATA #REQUIRED
+	age CDATA #REQUIRED>
+<!ELEMENT genre (#PCDATA)>
+<!ELEMENT director (#PCDATA)>
+<!ELEMENT producer (#PCDATA)>
+<!ELEMENT writer (#PCDATA)>
+<!ELEMENT sound_designer (#PCDATA)>
+<!ELEMENT record_label (#PCDATA)>
+<!ELEMENT studio (#PCDATA)>
+<!ATTLIST studio studioAddress CDATA #REQUIRED>
+<!ELEMENT song_duration (#PCDATA)>
+<!ATTLIST song_duration format CDATA #REQUIRED>
+<!ELEMENT song_language (#PCDATA)>
+<!ELEMENT release_year (#PCDATA)>
+<!ELEMENT digital_version (#PCDATA)>
+<!ATTLIST digital_version currency CDATA #REQUIRED>
+<!ELEMENT CD_version (#PCDATA)>
+<!ATTLIST CD_version currency CDATA #REQUIRED>
+<!ELEMENT song_price (digital_version,CD_version)>
+<!ELEMENT song (song_number,song_name,artist,genre,director,producer,writer,sound_designer,record_label,studio,song_duration,song_language,release_year,song_price)>
+<!ATTLIST song id ID #REQUIRED>
+<!ELEMENT Description_2 (#PCDATA)>
+<!ELEMENT Music (description,(song)+,Description_2)>
+<!ELEMENT store (store_info,Music)>
